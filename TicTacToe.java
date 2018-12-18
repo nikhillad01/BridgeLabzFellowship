@@ -1,17 +1,23 @@
 package com.Prj.functional;
 import java.io.*;
 import java.util.Scanner;
+
+import com.Prj.utilities.Utility;
 class TicTacToe {
-    static final int EMPTY = 0;
+	
+ /*   static final int EMPTY = 0;
     static final int NONE = 0;
     static final int USER = 1;
     static final int COMPUTER = 2;
-    static final int STALEMATE = 3;
+    static final int STALEMATE = 3;*/
 
     public static void main(String[] args) {
+    	Utility.tictactoe();
+    	}}
+    
 	// Data objects
 	// 1 = user, 2 = computer
-	int turn = USER;
+	/*int turn = USER;
 
 	// We will represent the board as nine cells 
         // 0 = empty, 1 = user, 2 = computer
@@ -176,10 +182,10 @@ class TicTacToe {
 	int move = (int)(Math.random()*8);
 
 	while(board[move/3][move%3] != EMPTY) 
-	    move = (int)(Math.random()*9);
+	    move = (int)(Math.random()*8);
 
 	return 
 			move;
 	
     }
-}
+}*/
